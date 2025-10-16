@@ -139,7 +139,7 @@ export default function ContactSection() {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/erick-pajares/"
+                  href="https://www.linkedin.com/in/gunminiho/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-slate-50 dark:bg-slate-700/50 hover:bg-slate-100 dark:hover:bg-slate-700 transition-all group"
