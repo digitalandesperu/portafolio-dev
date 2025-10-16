@@ -1,0 +1,39 @@
+# Security Policy para Portafolio de Erick Pajares
+# https://erickpajares.dev/.well-known/security.txt
+
+Contact: mailto:epajares@me.com
+Contact: https://github.com/gunminiho
+Preferred-Languages: es, en
+Canonical: https://erickpajares.dev/.well-known/security.txt
+Policy: https://erickpajares.dev/security-policy
+
+# Información de Reporte
+Expires: 2026-10-16T23:59:59.000Z
+Acknowledgments: https://erickpajares.dev/thanks
+
+# Instrucciones
+# Si encuentras una vulnerabilidad de seguridad en este sitio web,
+# por favor repórtala de manera responsable a través de los canales anteriores.
+#
+# Por favor incluye:
+# - Descripción detallada de la vulnerabilidad
+# - Pasos para reproducir el problema
+# - Impacto potencial
+# - Cualquier captura de pantalla o evidencia relevante
+#
+# Responderemos a los reportes de seguridad en un plazo de 48-72 horas.
+#
+# NO reportes problemas de seguridad a través de issues públicos de GitHub.
+
+# Alcance
+# Este portafolio es una aplicación SPA (Single Page Application) estática.
+# No maneja datos sensibles de usuarios ni tiene backend propio.
+# El formulario de contacto utiliza un servicio de terceros (GetForm).
+
+# Divulgación Responsable
+# Por favor, permite un tiempo razonable para que podamos investigar
+# y solucionar el problema antes de hacer una divulgación pública.
+
+# Agradecimientos
+# Agradecemos a todos los investigadores de seguridad que ayudan
+# a mantener este sitio seguro.

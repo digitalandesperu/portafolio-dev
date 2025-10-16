@@ -1,0 +1,359 @@
+[
+  {
+    "id": "otp-service",
+    "title": {
+      "es": "Servicio de Generación de Códigos OTP",
+      "en": "OTP Code Generation Service"
+    },
+    "description": {
+      "es": "API REST tipada en TypeScript (SOLID) con Redis (TTL e invalidación tras uso), HMAC-SHA256 (no se almacena el código en texto plano), rate-limiting y auditoría; multi-tenant con PayloadCMS y DB en MongoDB.",
+      "en": "Typed REST API in TypeScript (SOLID) with Redis (TTL and post-use invalidation), HMAC-SHA256 (code not stored in plain text), rate-limiting and audit; multi-tenant with PayloadCMS and MongoDB DB."
+    },
+    "stack": ["TypeScript", "Redis", "HMAC-SHA256", "PayloadCMS", "MongoDB"],
+    "icon": "Lock",
+    "featured": true,
+    "metrics": [
+      {
+        "label": {
+          "es": "Arquitectura",
+          "en": "Architecture"
+        },
+        "value": "SOLID"
+      },
+      {
+        "label": {
+          "es": "Multi-tenant",
+          "en": "Multi-tenant"
+        },
+        "value": "✓"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "gradient": "from-red-400 to-rose-600"
+  },
+  {
+    "id": "encryption-service",
+    "title": {
+      "es": "Servicio de Encriptado/Desencriptado de Archivos",
+      "en": "File Encryption/Decryption Service"
+    },
+    "description": {
+      "es": "Endpoints para cifrado individual y masivo con AES-256-GCM (scrypt + salt/iv/tag), streaming ZIP on-the-fly, backpressure y preservación de nombre vía Content-Disposition; logs estructurados, Postgres/Redis y cliente web con progreso en tiempo real.",
+      "en": "Endpoints for individual and bulk encryption with AES-256-GCM (scrypt + salt/iv/tag), on-the-fly ZIP streaming, backpressure and name preservation via Content-Disposition; structured logs, Postgres/Redis and web client with real-time progress."
+    },
+    "stack": ["Node.js", "AES-256-GCM", "PostgreSQL", "Redis", "Streaming ZIP"],
+    "icon": "Shield",
+    "featured": true,
+    "metrics": [
+      {
+        "label": {
+          "es": "Cifrado",
+          "en": "Encryption"
+        },
+        "value": "AES-256"
+      },
+      {
+        "label": {
+          "es": "Streaming",
+          "en": "Streaming"
+        },
+        "value": "ZIP"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": null
+    },
+    "gradient": "from-orange-400 to-red-600"
+  },
+  {
+    "id": "cecom",
+    "title": {
+      "es": "CECOM - Sistema de Seguimiento de Emergencias",
+      "en": "CECOM - Emergency Tracking System"
+    },
+    "description": {
+      "es": "Sistema en tiempo real con arquitectura BFF (Backend for Frontend) que obtiene y filtra emergencias registradas por Bomberos del Perú mediante web scraping con Puppeteer. Backend en Express realiza scraping y procesamiento de datos, mientras el frontend en React + Tailwind muestra el panel de vigilancia con alertas sonoras y visuales automáticas para nuevas emergencias del distrito de SJL.",
+      "en": "Real-time system with BFF (Backend for Frontend) architecture that obtains and filters emergencies registered by Peruvian Firefighters through web scraping with Puppeteer. Backend in Express performs scraping and data processing, while frontend in React + Tailwind displays monitoring panel with automatic sound and visual alerts for new emergencies in SJL district."
+    },
+    "stack": [
+      "Express",
+      "Puppeteer",
+      "React",
+      "Tailwind CSS",
+      "Web Scraping",
+      "Node.js"
+    ],
+    "icon": "Activity",
+    "featured": true,
+    "metrics": [
+      {
+        "label": {
+          "es": "Arquitectura",
+          "en": "Architecture"
+        },
+        "value": "BFF"
+      },
+      {
+        "label": {
+          "es": "Distrito",
+          "en": "District"
+        },
+        "value": "SJL"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://cecom.erickpajares.dev"
+    },
+    "gradient": "from-red-400 to-orange-600"
+  },
+  {
+    "id": "camera-map",
+    "title": {
+      "es": "Mapa de las 610 Cámaras",
+      "en": "610 Cameras Map"
+    },
+    "description": {
+      "es": "Mapa estratégico que integró 610 cámaras con tecnología de inteligencia artificial de Hikvision, logrando un control del 100% y monitoreo en tiempo real de las operaciones en campo. Redujo los tiempos de respuesta y mejoró la eficiencia operativa en un 30%. La version de demostracion muestra informacion ficticia pero es completamente funcional.",
+      "en": "Strategic map that integrated 610 cameras with Hikvision artificial intelligence technology, achieving 100% control and real-time monitoring of field operations. Reduced response times and improved operational efficiency by 30%. The demo version shows fictional information but is fully functional."
+    },
+    "stack": ["React", "Leaflet", "Hikvision AI", "Node.js", "Redis"],
+    "icon": "Camera",
+    "featured": true,
+    "metrics": [
+      {
+        "label": {
+          "es": "Cámaras",
+          "en": "Cameras"
+        },
+        "value": "610"
+      },
+      {
+        "label": {
+          "es": "Eficiencia",
+          "en": "Efficiency"
+        },
+        "value": "↑30%"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://mapa.erickpajares.dev/"
+    },
+    "gradient": "from-indigo-400 to-purple-600"
+  },
+  {
+    "id": "surveillance-map",
+    "title": {
+      "es": "Mapa Integral de Vigilancia",
+      "en": "Comprehensive Surveillance Map"
+    },
+    "description": {
+      "es": "Mapa interactivo para radios TETRA, implementando geolocalización y delimitación de áreas críticas mediante Turf.js. La solución permitió mejorar la cobertura y respuesta de las unidades de serenazgo, reduciendo los tiempos de intervención en un 35%.",
+      "en": "Interactive map for TETRA radios, implementing geolocation and delimitation of critical areas using Turf.js. The solution improved coverage and response of security units, reducing intervention times by 35%."
+    },
+    "stack": ["React", "Turf.js", "Node.js", "Redis", "WebSockets"],
+    "icon": "MapPin",
+    "featured": true,
+    "metrics": [
+      {
+        "label": {
+          "es": "Tecnología",
+          "en": "Technology"
+        },
+        "value": "TETRA"
+      },
+      {
+        "label": {
+          "es": "Intervención",
+          "en": "Intervention"
+        },
+        "value": "↓35%"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/gunminiho/mapaintegral_back",
+      "demo": null
+    },
+    "gradient": "from-blue-400 to-cyan-600"
+  },
+  {
+    "id": "portfolio-windows-xp",
+    "title": {
+      "es": "Mi Portafolio - Windows XP",
+      "en": "My Portfolio - Windows XP"
+    },
+    "description": {
+      "es": "Portafolio interactivo con diseño nostálgico de Windows XP. Réplica fiel del clásico sistema operativo donde expongo mi CV, redes sociales, proyectos y contacto con la temática retro para los old school. Experiencia inmersiva con ventanas, iconos y estética del legendario Windows XP.",
+      "en": "Interactive portfolio with nostalgic Windows XP design. Faithful replica of the classic operating system where I showcase my CV, social networks, projects and contact with retro theme for old school fans. Immersive experience with windows, icons and aesthetics of the legendary Windows XP."
+    },
+    "stack": ["React", "Tailwind CSS"],
+    "icon": "Monitor",
+    "featured": true,
+    "metrics": [
+      {
+        "label": {
+          "es": "Temática",
+          "en": "Theme"
+        },
+        "value": "Win XP"
+      },
+      {
+        "label": {
+          "es": "Nostalgia",
+          "en": "Nostalgia"
+        },
+        "value": "100%"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://old.erickpajares.dev"
+    },
+    "gradient": "from-blue-400 to-green-500"
+  },
+  {
+    "id": "mi-tiendita",
+    "title": {
+      "es": "Mi Tiendita - E-commerce",
+      "en": "Mi Tiendita - E-commerce"
+    },
+    "description": {
+      "es": "Tienda online moderna y completa con catálogo de 500+ productos organizados en 10 categorías. Sistema de carrito inteligente, checkout optimizado, pasarela de pagos (Yape, tarjetas) y gestión de pedidos en tiempo real.",
+      "en": "Modern and complete online store with catalog of 500+ products organized in 10 categories. Smart cart system, optimized checkout, payment gateway (Yape, cards) and real-time order management."
+    },
+    "stack": ["React", "Vite", "Tailwind CSS", "Framer Motion", "i18n"],
+    "icon": "ShoppingBag",
+    "featured": false,
+    "metrics": [
+      {
+        "label": {
+          "es": "Productos",
+          "en": "Products"
+        },
+        "value": "500+"
+      },
+      {
+        "label": {
+          "es": "Satisfacción",
+          "en": "Satisfaction"
+        },
+        "value": "98%"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://www.store.digitalandesperu.com"
+    },
+    "gradient": "from-pink-400 to-rose-600"
+  },
+  {
+    "id": "terraza-limena",
+    "title": {
+      "es": "La Terraza Limeña - Menú Digital",
+      "en": "La Terraza Limeña - Digital Menu"
+    },
+    "description": {
+      "es": "Landing page de menú digital para restobar peruano con diseño moderno y elegante. Catálogo interactivo de platos (entradas, sopas, fondos, bebidas, postres), integración WhatsApp y optimización mobile-first.",
+      "en": "Digital menu landing page for Peruvian restobar with modern and elegant design. Interactive catalog of dishes (appetizers, soups, main courses, drinks, desserts), WhatsApp integration and mobile-first optimization."
+    },
+    "stack": ["React", "Vite", "Tailwind CSS", "Responsive Design"],
+    "icon": "Utensils",
+    "featured": false,
+    "metrics": [
+      {
+        "label": {
+          "es": "Platos",
+          "en": "Dishes"
+        },
+        "value": "35+"
+      },
+      {
+        "label": {
+          "es": "Load time",
+          "en": "Load time"
+        },
+        "value": "< 1s"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://menu.digitalandesperu.com"
+    },
+    "gradient": "from-amber-400 to-orange-600"
+  },
+  {
+    "id": "energiandes",
+    "title": {
+      "es": "EnergiAndes - Corporativo",
+      "en": "EnergiAndes - Corporate"
+    },
+    "description": {
+      "es": "Sitio web corporativo premium para empresa de ingeniería y energía. Showcase de proyectos industriales (subestaciones, parques solares, SCADA), certificaciones ISO, sección de sostenibilidad y formulario de contacto profesional.",
+      "en": "Premium corporate website for engineering and energy company. Showcase of industrial projects (substations, solar parks, SCADA), ISO certifications, sustainability section and professional contact form."
+    },
+    "stack": ["React", "Vite", "Tailwind CSS", "Framer Motion", "SEO"],
+    "icon": "Building2",
+    "featured": false,
+    "metrics": [
+      {
+        "label": {
+          "es": "Proyectos",
+          "en": "Projects"
+        },
+        "value": "6"
+      },
+      {
+        "label": {
+          "es": "Certificaciones",
+          "en": "Certifications"
+        },
+        "value": "ISO"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://www.corporativo.digitalandesperu.com"
+    },
+    "gradient": "from-emerald-400 to-teal-600"
+  },
+  {
+    "id": "digital-andes",
+    "title": {
+      "es": "Digital Andes - Agencia Web",
+      "en": "Digital Andes - Web Agency"
+    },
+    "description": {
+      "es": "Sitio web de mi agencia de desarrollo Digital Andes Perú. Landing page corporativa moderna que muestra servicios de desarrollo web, diseño UI/UX, e-commerce y aplicaciones móviles. Portfolio de proyectos realizados y formulario de contacto profesional.",
+      "en": "Website of my development agency Digital Andes Peru. Modern corporate landing page showcasing web development, UI/UX design, e-commerce and mobile application services. Portfolio of completed projects and professional contact form."
+    },
+    "stack": ["React", "Vite", "Tailwind CSS", "Framer Motion", "SEO"],
+    "icon": "Building2",
+    "featured": false,
+    "metrics": [
+      {
+        "label": {
+          "es": "Servicios",
+          "en": "Services"
+        },
+        "value": "4+"
+      },
+      {
+        "label": {
+          "es": "Proyectos",
+          "en": "Projects"
+        },
+        "value": "15+"
+      }
+    ],
+    "links": {
+      "github": null,
+      "demo": "https://www.digitalandesperu.com"
+    },
+    "gradient": "from-violet-400 to-purple-600"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "fravatel",
+    "role": {
+      "es": "Analista - Desarrollador Full Stack",
+      "en": "Analyst - Full Stack Developer"
+    },
+    "company": "Fravatel EIRL",
+    "date": {
+      "es": "Julio 2025 – Actualidad",
+      "en": "July 2025 – Present"
+    },
+    "description": {
+      "es": "Desarrollo de microservicios empresariales: (I) API REST de OTPs con TypeScript, Redis TTL, HMAC-SHA256, rate-limiting y multi-tenant con PayloadCMS/MongoDB. (II) Servicio de encriptado bancario con AES-256-GCM, streaming ZIP, backpressure y cliente web con progreso en tiempo real. (III) Sistema de alertas push multiplataforma (Expo/React Native, Vue 3, NestJS) con health checks ICMP/HTTP.",
+      "en": "Development of enterprise microservices: (I) OTP REST API with TypeScript, Redis TTL, HMAC-SHA256, rate-limiting and multi-tenant with PayloadCMS/MongoDB. (II) Banking encryption service with AES-256-GCM, ZIP streaming, backpressure and web client with real-time progress. (III) Multi-platform push notification system (Expo/React Native, Vue 3, NestJS) with ICMP/HTTP health checks."
+    },
+    "stack": ["TypeScript", "Node.js", "Redis", "MongoDB", "PostgreSQL", "Vue 3", "NestJS", "Expo", "React Native"],
+    "achievements": [
+      { 
+        "icon": "Zap", 
+        "text": {
+          "es": "Microservicios",
+          "en": "Microservices"
+        }, 
+        "value": "3" 
+      },
+      { 
+        "icon": "CheckCircle", 
+        "text": {
+          "es": "Multi-tenant",
+          "en": "Multi-tenant"
+        }, 
+        "value": "✓" 
+      }
+    ],
+    "current": true
+  },
+  {
+    "id": "cecom-coordinator",
+    "role": {
+      "es": "Coordinador – CECOM",
+      "en": "Coordinator – CECOM"
+    },
+    "company": {
+      "es": "Municipalidad de San Juan de Lurigancho",
+      "en": "Municipality of San Juan de Lurigancho"
+    },
+    "date": {
+      "es": "Enero 2025 – Marzo 2025",
+      "en": "January 2025 – March 2025"
+    },
+    "description": {
+      "es": "Lideré 4 proyectos críticos: (I) Mapa estratégico de 610 cámaras con IA Hikvision, logrando control 100% y reduciendo tiempos de respuesta 30%. (II) Sistema de gestión de bodycams que aumentó seguimiento de unidades 100%. (III) Monitoreo proactivo con protocolos ICMP/ISAPI/RTSP alcanzando 99% disponibilidad y mejorando gestión 50%. (IV) Observatorio distrital en tiempo real con KPIs integrando clima, caudal, incidencias, servidores y cámaras, incrementando capacidad de respuesta 45%.",
+      "en": "Led 4 critical projects: (I) Strategic map of 610 cameras with Hikvision AI, achieving 100% control and reducing response times by 30%. (II) Bodycam management system that increased unit tracking by 100%. (III) Proactive monitoring with ICMP/ISAPI/RTSP protocols achieving 99% availability and improving management by 50%. (IV) Real-time district observatory with KPIs integrating weather, flow, incidents, servers and cameras, increasing response capacity by 45%."
+    },
+    "stack": ["React", "Vue 3", "Leaflet", "Node.js", "Redis", "Hikvision AI", "ICMP", "ISAPI", "RTSP"],
+    "achievements": [
+      { 
+        "icon": "TrendingDown", 
+        "text": {
+          "es": "Tiempo respuesta",
+          "en": "Response time"
+        }, 
+        "value": "↓30%" 
+      },
+      { 
+        "icon": "CheckCircle", 
+        "text": {
+          "es": "Disponibilidad red",
+          "en": "Network availability"
+        }, 
+        "value": "99%" 
+      }
+    ],
+    "current": false
+  },
+  {
+    "id": "serenazgo-dev",
+    "role": {
+      "es": "Desarrollador Full Stack – Serenazgo",
+      "en": "Full Stack Developer – Security"
+    },
+    "company": {
+      "es": "Municipalidad de San Juan de Lurigancho",
+      "en": "Municipality of San Juan de Lurigancho"
+    },
+    "date": {
+      "es": "Agosto 2024 – Diciembre 2024",
+      "en": "August 2024 – December 2024"
+    },
+    "description": {
+      "es": "Desarrollé 5 soluciones digitales: (I) Mapa integral con geolocalización TETRA y Turf.js reduciendo tiempos de intervención 35%. (II) Integración con tecnología Dolphin (ingeniería inversa) con alertas por salida de zonas, incrementando trazabilidad 30%. (III) Sistema de asistencia con reconocimiento facial Axxon y automatización de recibos/RUC reduciendo errores 40%. (IV) Digitalización de actas/multas/infracciones aumentando transparencia y reduciendo gestión 35%. (V) Plataforma de reservas deportivas online que incrementó reservas 50%.",
+      "en": "Developed 5 digital solutions: (I) Comprehensive map with TETRA geolocation and Turf.js reducing intervention times by 35%. (II) Integration with Dolphin technology (reverse engineering) with zone exit alerts, increasing traceability by 30%. (III) Attendance system with Axxon facial recognition and receipt/RUC automation reducing errors by 40%. (IV) Digitalization of records/fines/infractions increasing transparency and reducing management by 35%. (V) Online sports reservation platform that increased bookings by 50%."
+    },
+    "stack": ["React", "Node.js", "PostgreSQL", "Turf.js", "Axxon", "Dolphin", "WebSockets"],
+    "achievements": [
+      { 
+        "icon": "TrendingDown", 
+        "text": {
+          "es": "Tiempo intervención",
+          "en": "Intervention time"
+        }, 
+        "value": "↓35%" 
+      },
+      { 
+        "icon": "TrendingUp", 
+        "text": {
+          "es": "Trazabilidad",
+          "en": "Traceability"
+        }, 
+        "value": "↑30%" 
+      }
+    ],
+    "current": false
+  },
+  {
+    "id": "camera-operator",
+    "role": {
+      "es": "Operador de Cámaras de Vigilancia",
+      "en": "Surveillance Camera Operator"
+    },
+    "company": {
+      "es": "Municipalidad de San Juan de Lurigancho",
+      "en": "Municipality of San Juan de Lurigancho"
+    },
+    "date": {
+      "es": "Junio 2024 – Agosto 2024",
+      "en": "June 2024 – August 2024"
+    },
+    "description": {
+      "es": "Monitoreo integral del distrito con red de cámaras HD coordinando personal de campo vía radiocomunicación. Implementé sistema de análisis visual para detección temprana de incidentes, reduciendo tiempo de intervención en emergencias 30%. Mejoré la comunicación operativa entre centro de monitoreo y equipos en terreno, incrementando eficiencia de gestión de crisis.",
+      "en": "Comprehensive district monitoring with HD camera network coordinating field personnel via radio communication. Implemented visual analysis system for early incident detection, reducing emergency intervention time by 30%. Improved operational communication between monitoring center and field teams, increasing crisis management efficiency."
+    },
+    "stack": [
+      { "es": "Sistemas de Videovigilancia", "en": "Video Surveillance Systems" },
+      { "es": "Radiocomunicación", "en": "Radio Communication" },
+      { "es": "Análisis Visual", "en": "Visual Analysis" },
+      { "es": "Gestión de Incidentes", "en": "Incident Management" }
+    ],
+    "achievements": [
+      { 
+        "icon": "TrendingDown", 
+        "text": {
+          "es": "Tiempo intervención",
+          "en": "Intervention time"
+        }, 
+        "value": "↓30%" 
+      },
+      { 
+        "icon": "CheckCircle", 
+        "text": {
+          "es": "Monitoreo 24/7",
+          "en": "24/7 Monitoring"
+        }, 
+        "value": "✓" 
+      }
+    ],
+    "current": false
+  },
+  {
+    "id": "cadavra",
+    "role": {
+      "es": "Analista Desarrollador Full Stack",
+      "en": "Full Stack Developer Analyst"
+    },
+    "company": "Group Cadavra S.A.C.",
+    "date": {
+      "es": "Diciembre 2023 – Mayo 2024",
+      "en": "December 2023 – May 2024"
+    },
+    "description": {
+      "es": "Desarrollo full-stack con React y Node.js para Medipharm (botica). Diseñé arquitecturas escalables reduciendo tiempo de carga 40%. Creé servicios RESTful con PostgreSQL/MySQL garantizando seguridad y automatización de procesos. Trabajé con metodologías Scrum mejorando coordinación y acelerando entregas. Mantuve sistemas con diagnósticos periódicos alcanzando 99.9% disponibilidad. Traduje necesidades empresariales en soluciones tecnológicas simplificando gestión de inventario y experiencia del cliente.",
+      "en": "Full-stack development with React and Node.js for Medipharm (pharmacy). Designed scalable architectures reducing load time by 40%. Created RESTful services with PostgreSQL/MySQL ensuring security and process automation. Worked with Scrum methodologies improving coordination and accelerating deliveries. Maintained systems with periodic diagnostics achieving 99.9% availability. Translated business needs into technological solutions simplifying inventory management and customer experience."
+    },
+    "stack": ["React", "Node.js", "Express", "PostgreSQL", "MySQL", "Sequelize"],
+    "achievements": [
+      { 
+        "icon": "TrendingDown", 
+        "text": {
+          "es": "Tiempo de carga",
+          "en": "Load time"
+        }, 
+        "value": "↓40%" 
+      },
+      { 
+        "icon": "CheckCircle", 
+        "text": {
+          "es": "Disponibilidad",
+          "en": "Availability"
+        }, 
+        "value": "99.9%" 
+      }
+    ],
+    "current": false
+  },
+  {
+    "id": "freelance",
+    "role": {
+      "es": "Desarrollador Full Stack Freelance",
+      "en": "Freelance Full Stack Developer"
+    },
+    "company": "Workana",
+    "date": {
+      "es": "Marzo 2023 – Noviembre 2023",
+      "en": "March 2023 – November 2023"
+    },
+    "description": {
+      "es": "Desarrollo freelance de múltiples proyectos web para clientes internacionales. Implementación de soluciones full-stack personalizadas con React, Node.js y PostgreSQL, entregando proyectos escalables y optimizados con alta satisfacción del cliente.",
+      "en": "Freelance development of multiple web projects for international clients. Implementation of custom full-stack solutions with React, Node.js and PostgreSQL, delivering scalable and optimized projects with high customer satisfaction."
+    },
+    "stack": ["React", "Node.js", "Express", "PostgreSQL", "Sequelize", "Git"],
+    "achievements": [
+      { 
+        "icon": "CheckCircle", 
+        "text": {
+          "es": "Proyectos completados",
+          "en": "Completed projects"
+        }, 
+        "value": "10+" 
+      },
+      { 
+        "icon": "Zap", 
+        "text": {
+          "es": "Satisfacción cliente",
+          "en": "Client satisfaction"
+        }, 
+        "value": "4.9★" 
+      }
+    ],
+    "current": false
+  }
+]

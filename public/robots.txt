@@ -1,0 +1,68 @@
+# robots.txt para Portafolio de Erick Pajares
+# https://erickpajares.dev
+
+# Permitir acceso a todos los bots
+User-agent: *
+Allow: /
+
+# Bloquear acceso a archivos de desarrollo y configuración
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /dist/
+Disallow: /*.json$
+
+# Permitir específicamente los archivos importantes
+Allow: /site.webmanifest
+Allow: /favicon.ico
+Allow: /images/
+Allow: /locales/
+
+# Bots específicos
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Bloquear bots maliciosos conocidos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+# Crawl-delay para evitar sobrecarga (opcional)
+# User-agent: *
+# Crawl-delay: 10
+
+# Sitemap (actualizar cuando esté disponible)
+Sitemap: https://erickpajares.dev/sitemap.xml

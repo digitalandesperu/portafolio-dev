@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Página Principal (Hero) -->
+  <url>
+    <loc>https://erickpajares.dev/</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://erickpajares.dev/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://erickpajares.dev/?lang=en" />
+  </url>
+
+  <!-- Sección About -->
+  <url>
+    <loc>https://erickpajares.dev/#about</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://erickpajares.dev/#about?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://erickpajares.dev/#about?lang=en" />
+  </url>
+
+  <!-- Sección Skills -->
+  <url>
+    <loc>https://erickpajares.dev/#skills</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://erickpajares.dev/#skills?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://erickpajares.dev/#skills?lang=en" />
+  </url>
+
+  <!-- Sección Experience -->
+  <url>
+    <loc>https://erickpajares.dev/#experience</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://erickpajares.dev/#experience?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://erickpajares.dev/#experience?lang=en" />
+  </url>
+
+  <!-- Sección Projects -->
+  <url>
+    <loc>https://erickpajares.dev/#projects</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://erickpajares.dev/#projects?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://erickpajares.dev/#projects?lang=en" />
+  </url>
+
+  <!-- Sección Contact -->
+  <url>
+    <loc>https://erickpajares.dev/#contact</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://erickpajares.dev/#contact?lang=es" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://erickpajares.dev/#contact?lang=en" />
+  </url>
+
+  <!-- Proyecto: OTP Service -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/otp-service</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Proyecto: Encryption Service -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/encryption-service</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Proyecto: CECOM Monitoring -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/cecom-monitoring</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Proyecto: 610 Cameras Map -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/cameras-map</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Proyecto: GPS Fleet Tracker -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/gps-tracker</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Proyecto: Windows XP Portfolio -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/windows-xp-portfolio</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Proyecto: Mi Tiendita -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/mi-tiendita</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Proyecto: Restaurant POS -->
+  <url>
+    <loc>https://erickpajares.dev/#projects/restaurant-pos</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

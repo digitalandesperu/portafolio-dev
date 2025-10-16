@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "hero": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Erick Pajares",
+    "role": "Desarrollador Full Stack",
+    "subtitle": "Especializado en backend sólido, arquitectura escalable y DevOps. Transformo ideas en soluciones reales con código limpio y eficiente.",
+    "cta_projects": "Ver proyectos",
+    "cta_contact": "Contactar",
+    "cta_download_cv": "Descargar CV"
+  },
+  "about": {
+    "badge": "Sobre mí",
+    "title": "Construyendo soluciones escalables",
+    "subtitle": "con enfoque en backend y DevOps",
+    "description": "Desarrollador Full Stack con experiencia en sistemas críticos de producción. Especializado en backend con Node.js, PostgreSQL y Redis. He trabajado en proyectos de videovigilancia con IA, sistemas de geolocalización en tiempo real, encriptación bancaria y automatización de procesos.",
+    "focus_title": "Mi enfoque:",
+    "focus_items": [
+      "Arquitectura escalable y mantenible",
+      "Seguridad y encriptación de datos",
+      "Optimización de rendimiento",
+      "Automatización y DevOps",
+      "Código limpio y documentado"
+    ],
+    "stats": {
+      "experience": "Años de experiencia",
+      "projects": "Proyectos completados",
+      "clients": "Clientes satisfechos",
+      "success": "Tasa de éxito"
+    }
+  },
+  "skills": {
+    "badge": "Tech Stack",
+    "title": "Habilidades Técnicas",
+    "subtitle": "Tecnologías y herramientas que domino para crear soluciones robustas",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps"
+    }
+  },
+  "experience": {
+    "badge": "Trayectoria",
+    "title": "Experiencia Profesional",
+    "subtitle": "Mi recorrido en el desarrollo de software y sistemas críticos",
+    "current": "Actual"
+  },
+  "projects": {
+    "badge": "Featured Work",
+    "title": "Proyectos Destacados",
+    "subtitle": "Soluciones innovadoras que combinan seguridad, escalabilidad y rendimiento",
+    "featured": "Featured",
+    "private": "Proyecto Privado",
+    "view_code": "Código",
+    "view_demo": "Ver Demo"
+  },
+  "contact": {
+    "badge": "Let's Talk",
+    "title": "¿Listo para construir algo increíble?",
+    "subtitle": "Si buscas un desarrollador que combine backend sólido, visión DevOps y enfoque en resultados reales, estaré encantado de colaborar contigo.",
+    "info_title": "Información de Contacto",
+    "email_label": "Email",
+    "github_label": "GitHub",
+    "linkedin_label": "LinkedIn",
+    "location_label": "Ubicación",
+    "location_value": "Lima, Perú",
+    "availability_title": "Disponible para proyectos",
+    "availability_subtitle": "Respondo en menos de 24 horas",
+    "form_title": "Envíame un mensaje",
+    "form_name": "Tu nombre",
+    "form_name_placeholder": "Juan Pérez",
+    "form_email": "Correo electrónico",
+    "form_email_placeholder": "tu@email.com",
+    "form_phone": "Teléfono",
+    "form_phone_optional": "(opcional)",
+    "form_phone_placeholder": "+51 999 999 999",
+    "form_message": "Mensaje",
+    "form_message_placeholder": "Cuéntame sobre tu proyecto...",
+    "form_submit": "Enviar mensaje",
+    "form_submitting": "Enviando...",
+    "form_success": "¡Mensaje enviado con éxito! Te contactaré pronto.",
+    "form_error": "Hubo un error al enviar el mensaje. Por favor, intenta de nuevo."
+  },
+  "footer": {
+    "tagline": "Desarrollador Full Stack especializado en backend sólido, arquitectura escalable y DevOps.",
+    "tagline_highlight": "Código limpio, soluciones reales.",
+    "quick_links": "Enlaces rápidos",
+    "social": "Sígueme",
+    "availability": "Disponible para proyectos freelance",
+    "location": "Lima, Perú",
+    "copyright": "Hecho con",
+    "tech": "React & Tailwind CSS",
+    "scroll_top": "Volver arriba"
+  }
+}

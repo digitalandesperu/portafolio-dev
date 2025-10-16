@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "hero": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Erick Pajares",
+    "role": "Full Stack Developer",
+    "subtitle": "Specialized in solid backend, scalable architecture and DevOps. I transform ideas into real solutions with clean and efficient code.",
+    "cta_projects": "View projects",
+    "cta_contact": "Get in touch",
+    "cta_download_cv": "Download CV"
+  },
+  "about": {
+    "badge": "About me",
+    "title": "Building scalable solutions",
+    "subtitle": "with focus on backend and DevOps",
+    "description": "Full Stack Developer with experience in critical production systems. Specialized in backend with Node.js, PostgreSQL and Redis. I've worked on AI video surveillance projects, real-time geolocation systems, banking encryption and process automation.",
+    "focus_title": "My focus:",
+    "focus_items": [
+      "Scalable and maintainable architecture",
+      "Security and data encryption",
+      "Performance optimization",
+      "Automation and DevOps",
+      "Clean and documented code"
+    ],
+    "stats": {
+      "experience": "Years of experience",
+      "projects": "Completed projects",
+      "clients": "Satisfied clients",
+      "success": "Success rate"
+    }
+  },
+  "skills": {
+    "badge": "Tech Stack",
+    "title": "Technical Skills",
+    "subtitle": "Technologies and tools I master to create robust solutions",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps"
+    }
+  },
+  "experience": {
+    "badge": "Journey",
+    "title": "Professional Experience",
+    "subtitle": "My path in software development and critical systems",
+    "current": "Current"
+  },
+  "projects": {
+    "badge": "Featured Work",
+    "title": "Featured Projects",
+    "subtitle": "Innovative solutions combining security, scalability and performance",
+    "featured": "Featured",
+    "private": "Private Project",
+    "view_code": "Code",
+    "view_demo": "View Demo"
+  },
+  "contact": {
+    "badge": "Let's Talk",
+    "title": "Ready to build something amazing?",
+    "subtitle": "If you're looking for a developer who combines solid backend, DevOps vision and focus on real results, I'd be happy to collaborate with you.",
+    "info_title": "Contact Information",
+    "email_label": "Email",
+    "github_label": "GitHub",
+    "linkedin_label": "LinkedIn",
+    "location_label": "Location",
+    "location_value": "Lima, Peru",
+    "availability_title": "Available for projects",
+    "availability_subtitle": "I respond within 24 hours",
+    "form_title": "Send me a message",
+    "form_name": "Your name",
+    "form_name_placeholder": "John Doe",
+    "form_email": "Email address",
+    "form_email_placeholder": "you@email.com",
+    "form_phone": "Phone",
+    "form_phone_optional": "(optional)",
+    "form_phone_placeholder": "+1 999 999 999",
+    "form_message": "Message",
+    "form_message_placeholder": "Tell me about your project...",
+    "form_submit": "Send message",
+    "form_submitting": "Sending...",
+    "form_success": "Message sent successfully! I'll contact you soon.",
+    "form_error": "There was an error sending the message. Please try again."
+  },
+  "footer": {
+    "tagline": "Full Stack Developer specialized in solid backend, scalable architecture and DevOps.",
+    "tagline_highlight": "Clean code, real solutions.",
+    "quick_links": "Quick links",
+    "social": "Follow me",
+    "availability": "Available for freelance projects",
+    "location": "Lima, Peru",
+    "copyright": "Made with",
+    "tech": "React & Tailwind CSS",
+    "scroll_top": "Back to top"
+  }
+}
