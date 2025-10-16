@@ -7,7 +7,18 @@ html {
 }
 
 body {
-  @apply font-inter antialiased bg-slate-50 text-slate-800 dark:bg-[#0f172a] dark:text-slate-200 transition-colors duration-500;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(248 250 252);
+  color: rgb(30 41 59);
+  transition-property: background-color, color;
+  transition-duration: 500ms;
+}
+
+body.dark {
+  background-color: #0f172a;
+  color: rgb(226 232 240);
 }
 
 /* ===== SCROLLBAR ===== */
@@ -44,7 +55,11 @@ body {
 
 /* ===== SECTION SPACING ===== */
 section {
-  @apply relative w-full flex justify-center items-center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ===== CUSTOM CLASSES ===== */
