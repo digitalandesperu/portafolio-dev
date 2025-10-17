@@ -154,7 +154,7 @@ export default function ExperienceSection() {
                         </div>
 
                         {/* Descripción */}
-                        <p className="text-slate-600 dark:text-slate-300 mb-4 leading-relaxed">
+                        <p className="text-slate-600 text-justify dark:text-slate-300 mb-4 leading-relaxed">
                           {exp.description}
                         </p>
 

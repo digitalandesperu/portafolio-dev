@@ -1,12 +1,26 @@
 // src/components/HeroSection.jsx
 import { motion } from "framer-motion";
-import { Download, ArrowDown, Github, Linkedin, Mail, Sparkles, Terminal } from "lucide-react";
+import {
+  Download,
+  ArrowDown,
+  Github,
+  Linkedin,
+  Mail,
+  Sparkles,
+  Terminal,
+  View
+} from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 
 export default function HeroSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
+  // Determinar el archivo CV según el idioma
+  const cvFile = i18n.language === "en" 
+    ? "/Erick_Pajares_US_Resume.pdf" 
+    : "/CV_Erick_Pajares.pdf";
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -33,13 +47,19 @@ export default function HeroSection() {
         }}
       >
         <div className="absolute w-[600px] h-[600px] bg-cyan-500/20 rounded-full blur-3xl top-[-200px] left-[-200px] animate-pulse" />
-        <div className="absolute w-[600px] h-[600px] bg-violet-600/20 rounded-full blur-3xl bottom-[-200px] right-[-200px] animate-pulse" style={{ animationDelay: "1s" }} />
-        <div className="absolute w-[400px] h-[400px] bg-pink-500/10 rounded-full blur-2xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-pulse" style={{ animationDelay: "2s" }} />
+        <div
+          className="absolute w-[600px] h-[600px] bg-violet-600/20 rounded-full blur-3xl bottom-[-200px] right-[-200px] animate-pulse"
+          style={{ animationDelay: "1s" }}
+        />
+        <div
+          className="absolute w-[400px] h-[400px] bg-pink-500/10 rounded-full blur-2xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-pulse"
+          style={{ animationDelay: "2s" }}
+        />
       </motion.div>
 
       {/* Partículas flotantes */}
       <div className="absolute inset-0 pointer-events-none">
-        {[...Array(20)].map((_, i) => (
+        {[...Array(100)].map((_, i) => (
           <motion.div
             key={i}
             className="absolute w-1 h-1 bg-cyan-400 rounded-full"
@@ -76,7 +96,9 @@ export default function HeroSection() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 backdrop-blur-sm mb-6"
         >
           <Sparkles className="w-4 h-4 text-cyan-400 animate-pulse" />
-          <span className="text-sm font-medium text-cyan-300">Open to work</span>
+          <span className="text-sm font-medium text-cyan-300">
+            Open to work
+          </span>
         </motion.div>
 
         {/* Título con efecto gradiente */}
@@ -121,16 +143,30 @@ export default function HeroSection() {
             className="group relative px-8 py-4 rounded-xl font-semibold flex items-center gap-2 overflow-hidden bg-gradient-to-r from-cyan-500 to-blue-500 hover:shadow-xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
           >
             <span className="relative z-10">{t("hero.cta_projects")}</span>
-            <ArrowDown size={18} className="relative z-10 group-hover:animate-bounce" />
+            <ArrowDown
+              size={18}
+              className="relative z-10 group-hover:animate-bounce"
+            />
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity" />
           </a>
           <a
-            href="/CV_Erick_Pajares.pdf"
+            href={cvFile}
             download
             className="group px-8 py-4 rounded-xl font-semibold flex items-center gap-2 border-2 border-cyan-400 hover:bg-cyan-500 hover:border-cyan-500 hover:text-white transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/30"
           >
             <Download size={18} className="group-hover:animate-bounce" />
             <span>{t("hero.cta_download_cv")}</span>
+          </a>
+          <a
+            href="https://old.erickpajares.dev" target="_blank"
+            className="group relative px-8 py-4 rounded-xl font-semibold flex items-center gap-2 overflow-hidden bg-gradient-to-r from-cyan-500 to-blue-500 hover:shadow-xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
+          >
+            <span className="relative z-10">{t("hero.old_portfolio")}</span>
+            <View
+              size={18}
+              className="relative z-10 group-hover:animate-bounce"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity" />
           </a>
         </motion.div>
 
@@ -142,9 +178,21 @@ export default function HeroSection() {
           className="flex justify-center gap-6"
         >
           {[
-            { icon: Github, href: "https://github.com/gunminiho", color: "hover:bg-purple-500" },
-            { icon: Linkedin, href: "https://www.linkedin.com/in/gunminiho/", color: "hover:bg-blue-500" },
-            { icon: Mail, href: "mailto:epajares@me.com", color: "hover:bg-pink-500" },
+            {
+              icon: Github,
+              href: "https://github.com/gunminiho",
+              color: "hover:bg-purple-500",
+            },
+            {
+              icon: Linkedin,
+              href: "https://www.linkedin.com/in/gunminiho/",
+              color: "hover:bg-blue-500",
+            },
+            {
+              icon: Mail,
+              href: "mailto:gunminiho@gmail.com",
+              color: "hover:bg-pink-500",
+            },
           ].map(({ icon: Icon, href, color }, i) => (
             <motion.a
               key={i}

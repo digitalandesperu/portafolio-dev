@@ -119,7 +119,7 @@ export default function ProjectsSection() {
                     </div>
 
                     {/* Descripción */}
-                    <p className="text-sm md:text-base text-slate-600 dark:text-slate-300 mb-4 md:mb-6 leading-relaxed">
+                    <p className="text-sm text-justify md:text-base text-slate-600 dark:text-slate-300 mb-4 md:mb-6 leading-relaxed">
                       {project.description}
                     </p>
 

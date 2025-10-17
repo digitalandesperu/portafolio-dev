@@ -16,6 +16,10 @@
   RewriteCond %{HTTP_HOST} ^www\.erickpajares\.dev [NC]
   RewriteRule ^(.*)$ https://erickpajares.dev/$1 [L,R=301]
 
+  # Permitir acceso directo a archivos PDF
+  RewriteCond %{REQUEST_URI} \.pdf$ [NC]
+  RewriteRule ^ - [L]
+
   # SPA Routing - Todas las rutas a index.html
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
